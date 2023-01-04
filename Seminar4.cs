@@ -21,4 +21,28 @@ void PowerAB()
     Console.WriteLine(result);
 } 
 
-PowerAB();
+//PowerAB();
+
+// Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+
+// 452 -> 11
+
+// 82 -> 10
+
+// 9012 -> 12
+
+void SumDigits(int num)
+{
+    int result = 0;
+    string number = num.ToString();
+
+    for(int i = 0; i < number.Length; i++)
+    {
+        result += num % 10;
+        num /= 10;
+    }
+
+    Console.WriteLine(result);
+}
+
+SumDigits(9012);
