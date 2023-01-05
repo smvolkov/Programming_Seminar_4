@@ -13,15 +13,12 @@ void PowerAB()
 
     int result = 1;
 
-    for (int i = 0; i < b; i++)
-    {
-        result *= a;
-    }
+    for (int i = 0; i < b; i++) result *= a;
 
     Console.WriteLine(result);
 } 
 
-//PowerAB();
+PowerAB();
 
 // Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 
@@ -45,4 +42,4 @@ void SumDigits(int num)
     Console.WriteLine(result);
 }
 
-SumDigits(9012);
+//SumDigits(9012);
