@@ -18,7 +18,7 @@ void PowerAB()
     Console.WriteLine(result);
 } 
 
-//PowerAB();
+PowerAB();
 
 // Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 
@@ -42,7 +42,7 @@ void SumDigits(int num)
     Console.WriteLine(result);
 }
 
-//SumDigits(9012);
+SumDigits(9012);
 
 // Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 
