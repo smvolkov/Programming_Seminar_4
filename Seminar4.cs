@@ -18,7 +18,7 @@ void PowerAB()
     Console.WriteLine(result);
 } 
 
-PowerAB();
+//PowerAB();
 
 // Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 
@@ -43,3 +43,21 @@ void SumDigits(int num)
 }
 
 //SumDigits(9012);
+
+// Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+
+// 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+
+// 6, 1, 33 -> [6, 1, 33]
+
+void ShowArray (int Size)
+{
+    int[] array = new int[Size];
+    Random rnd = new Random();
+
+    for (int i = 0; i < Size; i++) array[i] = rnd.Next(0, 99);
+
+    Console.WriteLine(String.Join (", ", array));
+}
+
+ShowArray(8);
